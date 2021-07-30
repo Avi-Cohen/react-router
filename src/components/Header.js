@@ -1,7 +1,7 @@
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { selectCurrentUser, logOut } from "../features/session/sessionSlice";
-import {NavLink} from 'react-route-dom'
+import {NavLink} from 'react-router-dom'
 
 // Import the NavLink component.
 
