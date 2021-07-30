@@ -17,6 +17,12 @@ function App() {
     <Router>
       <Header />
       <main>
+        <Route path='/article/:title'>
+          <Article/>
+        </Route>
+        <Route path='authors/:name'>
+          <Author/>
+        </Route>
         <Route path="/about">
           <About />
         </Route>
